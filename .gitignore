@@ -1,0 +1,12 @@
+soot-infoflow-summaries/build/
+soot-infoflow-summaries/target/
+/.metadata
+/.recommenders
+.idea/
+*.iml
+apps/apks/opensource
+apps/apks/communication
+apps/apks/social
+apps/apks/topfree
+apps/output
+out

@@ -1,0 +1,242 @@
+<sinkSources>
+	<category id="NO_CATEGORY">
+
+		<field signature="&lt;com.handmark.twitapi.TwitService: java.lang.String consumer_secret&gt;">
+				<accessPath isSource="true" isSink="false"/>
+		</field>
+
+		<method signature="&lt;javax.crypto.spec.SecretKeySpec: void &lt;init&gt;(byte[],java.lang.String)&gt;">
+			<param index="0" type="byte[]">
+				<accessPath isSource="false" isSink="true">
+				</accessPath>
+			</param>
+		</method>
+
+
+
+		<method signature="&lt;java.io.DataInputStream: java.lang.String readLine()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+
+		<method signature="&lt;java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)&gt;">
+			<param index="0" type="java.lang.String">
+				<accessPath isSource="false" isSink="true">
+				</accessPath>
+			</param>
+		</method>
+<!--
+		<method signature="&lt;java.util.regex.Pattern: java.util.regex.Matcher matcher(java.lang.CharSequence)&gt;">
+			<param index="0" type="java.lang.CharSequence">
+				<accessPath isSource="false" isSink="true">
+				</accessPath>
+			</param>
+		</method>
+-->
+		<!--Webview-->
+		<method signature="&lt;android.webkit.WebView: void loadUrl(java.lang.String)&gt;">
+            <param index="0" type="java.lang.String">
+                <accessPath isSource="false" isSink="true">
+                </accessPath>
+            </param>
+		</method>
+
+		<method signature="&lt;twitter4j.conf.ConfigurationBuilder: twitter4j.conf.ConfigurationBuilder setOAuthConsumerSecret(java.lang.String)&gt;">
+			<param index="0" type="java.lang.String">
+				<accessPath isSource="false" isSink="true">
+				</accessPath>
+			</param>
+		</method>
+
+		<method signature="&lt;java.io.InputStreamReader: void &lt;init&gt;(java.io.InputStream)&gt;">
+			<param index="0" type="java.io.InputStream">
+				<accessPath isSource="false" isSink="true">
+				</accessPath>
+			</param>
+		</method>
+
+		<method signature="&lt;java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)&gt;">
+			<param index="0" type="java.lang.String">
+				<accessPath isSource="false" isSink="true">
+				</accessPath>
+			</param>
+		</method>
+<!--
+		<method signature="&lt;org.json.JSONObject: java.lang.String getString (java.lang.String)&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+-->
+		<method signature="&lt;android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)&gt;">
+		            <param index="1" type="java.lang.String">
+		                <accessPath isSource="false" isSink="true">
+		                </accessPath>
+		            </param>
+		</method>
+
+		<!--Webview-->
+		
+
+		<method signature="&lt;com.adobe.adobepass.accessenabler.api.AccessEnablerService: java.lang.String buildAuthnUrl(com.adobe.adobepass.accessenabler.models.Mvpd, boolean)&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+
+
+		<method signature="&lt;com.facebook.AccessToken: com.facebook.AccessToken getCurrentAccessToken()&gt;">
+            <return type="com.facebook.AccessToken">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+
+		<method signature="&lt;com.snapchat.kit.sdk.core.models.AuthToken: java.lang.String getRefreshToken()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+
+		<method signature="&lt;com.snapchat.kit.sdk.core.models.AuthToken: java.lang.String getAccessToken()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+
+		<method signature="&lt;com.squareup.okhttp.FormEncodingBuilder: com.squareup.okhttp.FormEncodingBuilder add(java.lang.String,java.lang.String)&gt;">
+		            <param index="1" type="java.lang.String">
+		                <accessPath isSource="false" isSink="true">
+		                </accessPath>
+		            </param>
+		</method>
+
+		<method signature="&lt;org.brickred.socialauth.util.AccessGrant: java.lang.String getKey()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+		
+		<!--misplaced server side-->
+		<method signature="&lt;java.io.DataOutputStream: void write(byte[])&gt;">
+		            <param index="0" type="byte[]">
+		                <accessPath isSource="false" isSink="true">
+		                </accessPath>
+		            </param>
+		</method>
+
+		<method signature="&lt;com.facebook.GraphRequest: void &lt;init&gt;(com.facebook.AccessToken,java.lang.String,android.os.Bundle,com.facebook.HttpMethod,com.facebook.GraphRequest$Callback)&gt;">
+		            <param index="0" type="com.facebook.AccessToken">
+		                <accessPath isSource="false" isSink="true">
+		                </accessPath>
+		            </param>
+		</method>
+
+		<method signature="&lt;com.facebook.GraphRequest: void &lt;init&gt;(com.facebook.AccessToken,java.lang.String,android.os.Bundle,com.facebook.HttpMethod)&gt;">
+		            <param index="0" type="com.facebook.AccessToken">
+		                <accessPath isSource="false" isSink="true">
+		                </accessPath>
+		            </param>
+		</method>
+
+		<method signature="&lt;com.facebook.GraphRequest: com.facebook.GraphRequest newMeRequest(com.facebook.AccessToken,com.facebook.GraphRequest$GraphJSONObjectCallback)&gt;">
+		            <param index="0" type="com.facebook.AccessToken">
+		                <accessPath isSource="false" isSink="true">
+		                </accessPath>
+		            </param>
+		</method>
+
+		<!--Webview-->
+		<method signature="&lt;com.gigya.socialize.android.GSWebViewActivity: java.lang.String getRequestURL()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+
+		<method signature="&lt;twitter4j.auth.RequestToken: java.lang.String getAuthenticationURL()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+
+		<method signature="&lt;android.content.Intent: void &lt;init&gt;(java.lang.String,android.net.Uri)&gt;">
+		            <param index="1" type="android.net.Uri">
+		                <accessPath isSource="false" isSink="true">
+		                </accessPath>
+		            </param>
+		</method>
+
+		<method signature="&lt;org.apache.http.message.BasicNameValuePair: void &lt;init&gt;(java.lang.String,java.lang.String)&gt;">
+		            <param index="1" type="java.lang.String">
+		                <accessPath isSource="false" isSink="true">
+		                </accessPath>
+		            </param>
+		</method>
+		<method signature="&lt;org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)&gt;">
+		            <param index="0" type="org.apache.http.client.methods.HttpUriRequest">
+		                <accessPath isSource="false" isSink="true">
+		                </accessPath>
+		            </param>
+		</method>
+		<method signature="&lt;org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)&gt;">
+		            <param index="0" type="org.apache.http.client.methods.HttpUriRequest">
+		                <accessPath isSource="false" isSink="true">
+		                </accessPath>
+		            </param>
+		</method>
+
+		<!--Webview-->
+		<field signature="&lt;com.prime31.TwitterDialog: java.lang.String _url&gt;">
+				<accessPath isSource="true" isSink="false"/>
+		</field>
+<!--
+		<method signature="&lt;java.util.regex.MatchResult: java.lang.String group(int)&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+-->
+		<field signature="&lt;com.unisocial.WebViewActivity: java.lang.String oauthUrl&gt;">
+                <accessPath isSource="true" isSink="false">
+                </accessPath>
+		</field>
+
+		<field signature="&lt;com.amazon.identity.auth.device.authorization.MAPAuthzDialog: java.lang.String mUrl&gt;">
+                <accessPath isSource="true" isSink="false">
+                </accessPath>
+		</field>
+
+		<method signature="&lt;com.facebook.android.Facebook: java.lang.String getAccessToken()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+		
+
+		<method signature="&lt;twitter4j.auth.AccessToken: java.lang.String getToken()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+		<method signature="&lt;twitter4j.auth.AccessToken: java.lang.String getToken()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+
+		<method signature="&lt;com.facebook.AccessToken: java.lang.String getTokenSecret()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+
+		<method signature="&lt;com.google.android.gms.auth.api.signin.GoogleSignInAccount: java.lang.String getId()&gt;">
+            <return type="java.lang.String">
+                <accessPath isSource="true" isSink="false" />
+            </return>
+		</method>
+
+
+		
+	</category>
+</sinkSources>
